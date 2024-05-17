@@ -1,0 +1,213 @@
+--------- beginning with launcher debug
+Info: Launcher version: edelweiss-20230928-9484d0c-v3_openjdk
+Info: Architecture: arm64
+Info: Device model: samsung SM-T225
+Info: API version: 34
+Info: Selected Minecraft version: quilt-loader-0.25.0-1.19.3
+Info: Custom Java arguments: ""
+Added custom env: TMPDIR=/data/user/0/net.kdt.pojavlaunch/cache
+Added custom env: AWTSTUB_WIDTH=1340
+Added custom env: FORCE_VSYNC=false
+Added custom env: POJAV_NATIVEDIR=/data/app/~~02rFEezyNsC84HFzZvX7bQ==/net.kdt.pojavlaunch-zQhcI4-_zeThtFuvUVFtKg==/lib/arm64
+Added custom env: REGAL_GL_VERSION=4.5
+Added custom env: REGAL_GL_VENDOR=Android
+Added custom env: LIBGL_MIPMAP=3
+Added custom env: allow_higher_compat_version=true
+Added custom env: MESA_GLSL_CACHE_DIR=/data/user/0/net.kdt.pojavlaunch/cache
+Added custom env: HOME=/storage/emulated/0/Android/data/net.kdt.pojavlaunch/files
+Added custom env: PATH=/data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/bin:/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin
+Added custom env: LIBGL_NOINTOVLHACK=1
+Added custom env: force_glsl_extensions_warn=true
+Added custom env: LIBGL_NORMALIZE=1
+Added custom env: LD_LIBRARY_PATH=/data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/jli:/data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib:/system/lib64:/vendor/lib64:/vendor/lib64/hw:/data/app/~~02rFEezyNsC84HFzZvX7bQ==/net.kdt.pojavlaunch-zQhcI4-_zeThtFuvUVFtKg==/lib/arm64
+Added custom env: LIBGL_NOERROR=1
+Added custom env: POJAV_RENDERER=opengles2
+Added custom env: LIBGL_ES=2
+Added custom env: VTEST_SOCKET_NAME=/data/user/0/net.kdt.pojavlaunch/cache/.virgl_test
+Added custom env: MESA_LOADER_DRIVER_OVERRIDE=zink
+Added custom env: MESA_GLSL_VERSION_OVERRIDE=460
+Added custom env: JAVA_HOME=/data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17
+Added custom env: MESA_GL_VERSION_OVERRIDE=4.6
+Added custom env: allow_glsl_extension_directive_midshader=true
+Added custom env: REGAL_GL_RENDERER=Regal
+Added custom env: AWTSTUB_HEIGHT=800
+Initialising gl4es
+v1.1.5 built on Sep 27 2023 17:42:09
+Using GLES 2.0 backend
+loaded: libGLESv2.so
+loaded: libEGL.so
+Using GLES 2.0 backend
+Hardware Full NPOT detected and used
+Extension GL_EXT_blend_minmax  detected and used
+Extension GL_EXT_draw_buffers  detected and used
+FBO are in core, and so used
+PointSprite are in core, and so used
+CubeMap are in core, and so used
+BlendColor is in core, and so used
+Blend Subtract is in core, and so used
+Blend Function and Equation Separation is in core, and so used
+Texture Mirrored Repeat is in core, and so used
+Extension GL_OES_mapbuffer  detected
+Extension GL_OES_element_index_uint  detected and used
+Extension GL_OES_packed_depth_stencil  detected and used
+Extension GL_OES_depth24  detected and used
+Extension GL_OES_rgb8_rgba8  detected and used
+Extension GL_EXT_multi_draw_arrays  detected
+Extension GL_EXT_texture_format_BGRA8888  detected and used
+Extension GL_OES_depth_texture  detected and used
+Extension GL_OES_texture_stencil8  detected and used
+Extension GL_EXT_texture_rg  detected and used
+Extension GL_OES_texture_float  detected and used
+Extension GL_OES_texture_half_float  detected and used
+Extension GL_EXT_color_buffer_float  detected and used
+Extension GL_EXT_color_buffer_half_float  detected and used
+Extension GL_OES_fragment_precision_high  detected and used
+Extension GL_EXT_shader_texture_lod detected and used
+Max vertex attrib: 16
+Extension GL_OES_standard_derivatives  detected and used
+Extension GL_OES_get_program_binary  detected and used
+Number of supported Program Binary Format: 1
+Max texture size: 8192
+Max Varying Vector: 15
+Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+Hardware vendor is Imagination Technologies
+GLSL 300 es supported
+GLSL 310 es supported and used
+GLSL 320 es supported
+Max Color Attachments: 8 / Draw buffers: 8
+sRGB surface supported
+EGLImage to Texture2D supported
+EGLImage to RenderBuffer supported
+ignore MipMap
+glGetError() always return GL_NOERROR
+Targeting OpenGL 2.1
+No hack in shader converter to define overloaded function with int
+Not trying to batch small subsequent glDrawXXXX
+try to use VBO
+FBO workaround for using binded texture enabled
+Force texture for Attachment color0 on FBO
+Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+Force normals to be normalized on FPE shaders
+glX Will try to recycle EGL Surface
+Current folder is:/
+--------- beginning of main
+I/jrelog  (25688): dlopen libgl4es_114.so success
+
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjli.so success
+
+I/jrelog  (25688): dlopen libjvm.so failed: dlopen failed: library "libjvm.so" not found
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/server/libjvm.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libverify.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjava.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libnet.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libnio.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libawt.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libawt_headless.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libfreetype.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libfontman
+ager.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libextnet.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libprefs.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libinstrument.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjavajpeg.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libnet.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjli.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/liblcms.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libverify.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/server/libjsig.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/ru
+ntimes/Internal-17/lib/server/libjvm.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjaas.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/librmi.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libnio.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjimage.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjsig.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libfontmanager.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libj2gss.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libawt_headless.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libsctp.so success
+I/jrelog  (25688): dlopen /data/u
+ser/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libzip.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libfreetype.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libmlib_image.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libmanagement_ext.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjava.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libmanagement_agent.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libdt_socket.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libjawt.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libmanagement.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libj
+dwp.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libawt.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libj2pkcs11.so success
+I/jrelog  (25688): dlopen /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17/lib/libawt_xawt.so success
+I/jrelog  (25688): dlopen /data/app/~~02rFEezyNsC84HFzZvX7bQ==/net.kdt.pojavlaunch-zQhcI4-_zeThtFuvUVFtKg==/lib/arm64/libopenal.so success
+I/jrelog  (25688): Done processing args
+I/jrelog  (25688): Found JLI lib
+I/jrelog  (25688): Calling JLI_Launch
+
+2024-05-12 11:34:23,705 main ERROR appender Console has no parameter that matches element Policies
+[11:34:24] [main/INFO]: Loading Minecraft 1.19.3 with Quilt Loader 0.25.0
+[11:34:24] [main/INFO]: Loading mappings: jar:file:/storage/emulated/0/Android/data/net.kdt.pojavlaunch/files/.minecraft/libraries/net/fabricmc/intermediary/1.19.3/intermediary-1.19.3.jar!/mappings/mappings.tiny
+[11:34:24] [main/INFO]: Preparing JARs on first launch, this may take a few seconds...
+[11:34:30] [main/INFO]: Not reusing previous transform cache since it's missing
+transform-cache took 40808ms
+zip sub copy took 106ms
+tmp jar copy took 0ms
+mod adding took 444ms
+[11:35:07] [main/INFO]: Loading 4 mods:
+| Index | Mod                      | ID           | Version | Type    | File Hash (SHA-1)                        | File(s)                                                                                 | Sub-File                                    |
+|------:|--------------------------|--------------|---------|---------|------------------------------------------|-----------------------------------------------------------------------------------------|---------------------------------------------|
+|     1 | Minecraft                | minecraft    | 1.19.3  | Builtin | 55f9bd1ae4f2d8a91f6d7515b7b840cf615bf63f | <game>/.cache/quilt_loader/remappedJars/minecraft-1.19.3-0.25.0/client-intermediary.jar | /                                           |
+|       |                          |              |         |         | 55f9bd1ae4f2d8a91f6d7515b7b840cf615bf63f | <game>/libraries/com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar                     | /                                           |
+|       |                          |              |         |         | 55f9bd1ae4f2d8a91f6d7515b7b840cf615bf63f | <game>/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar             | /                                           |
+|       |                          |              |         |         | 55f9bd1ae4f2d8a91f6d7515b7b840cf615bf63f | <game>/libraries/com/mojang/authlib/3.16.29/authlib-3.16.29.jar                         | /                                           |
+|       |                          |              |         |         |                                          | <game>/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar                       | /                                           |
+|     3 | MixinExtras              | mixinextras  | 0.3.5   | Fabric  | 57b366e72e2c0d355c05ff0951b1aa72a8cb113a | <game>/libraries/org/quiltmc/quilt-loader/0.25.0/quilt-loader-0.25.0.jar                | /META-INF/jars/mixinextras-fabric-0.3.5.jar |
+|     0 | OpenJDK 64-Bit Server VM | java         | 17      | Builtin |                                          | /data/user/0/net.kdt.pojavlaunch/runtimes/Internal-17                                   |                                             |
+|     2 | Quilt Loader             | quilt_loader | 0.25.0  | Quilt   | 57b366e72e2c0d355c05ff0951b1aa72a8cb113a | <game>/libraries/org/quiltmc/quilt-loader/0.25.0/quilt-loader-0.25.0.jar                |                                             |
+|------:|--------------------------|--------------|---------|---------|------------------------------------------|-----------------------------------------------------------------------------------------|---------------------------------------------|
+Mod Table Version: 2
+Plugin Types: {quilted_fabric_loader=[Fabric], quilt_loader=[Quilt, Builtin]}
+[11:35:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/storage/emulated/0/Android/data/net.kdt.pojavlaunch/files/.minecraft/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Quilt Env=CLIENT
+2024-05-12 11:35:17,728 main ERROR appender Console has no parameter that matches element Policies
+[11:35:25] [main/WARN]: File not found or not readable: /proc/stat
+[11:36:08] [main/INFO]: Building optimized datafixer
+[11:38:02] [Render thread/INFO]: [STDERR]: [LWJGL] Failed to load a library. Possible solutions:
+	a) Add the directory that contains the shared library to -Djava.library.path or -Dorg.lwjgl.librarypath.
+	b) Add the JAR that contains the shared library to the classpath.
+[11:38:02] [Render thread/INFO]: [STDERR]: [LWJGL] Enable debug mode with -Dorg.lwjgl.util.Debug=true for better diagnostics.
+[11:38:02] [Render thread/INFO]: [STDERR]: [LWJGL] Enable the SharedLibraryLoader debug mode with -Dorg.lwjgl.util.DebugLoader=true for better diagnostics.
+[11:38:07] [Render thread/WARN]: Assets URL 'quilt.zfs://minecraft-1.19.3.i0:0/assets/.mcassetsroot' uses unexpected schema
+[11:38:07] [Render thread/WARN]: Assets URL 'quilt.zfs://minecraft-1.19.3.i0:0/data/.mcassetsroot' uses unexpected schema
+[11:38:08] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+I/jrelog  (26558): dlopen libxhook.so success
+
+[11:38:17] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[minecraft-1.19.3.i0:0/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[minecraft-1.19.3.i0:0/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[minecraft-1.19.3.i0:0/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[minecraft-1.19.3.i0:0/:?]
+	at net.minecraft.class_310.method_31382(class_310.java:724) ~[minecraft-1.19.3.i0:0/:?]
+	at net.minecraft.class_310.<init>(class_310.java:437) ~[minecraft-1.19.3.i0:0/:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) ~[quilt-loader-0.25.0-1.19.3.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[quilt-loader-0.25.0-1.19.3.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:551) ~[quilt-loader-0.25.0.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:84) ~[quilt-loader-0.25.0.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:28) ~[quilt-loader-0.25.0.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[minecraft-1.19.3.i0:0/:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[minecraft-1.19.3.i0:0/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[minecraft-1.19.3.i0:0/:?]
+	... 13 more
+[11:38:19] [Render thread/INFO]: Setting user: DrusewiczBartosz
+Registered forkAndExec
+[11:38:25] [Render thread/ERROR]: Error parsing option value off for option Fullscreen: Not a boolean: "off"
+[11:38:25] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+EGLBridge: Binding to OpenGL ES
+[11:38:35] [Render thread/WARN]: Removed resource pack high_contrast from options because it is no longer compatible
